@@ -1,4 +1,4 @@
- //覆盖一些element-ui样式 覆盖css样式可在这里添加
+//覆盖一些element-ui样式 覆盖css样式可在这里添加
 .el-upload {
   input[type="file"] {
     display: none !important;
@@ -26,4 +26,12 @@
       height: 200px;
     }
   }
+}
+
+.el-submenu .el-menu-item {
+  min-width: 180px!important;
+}
+
+.el-menu {
+  border-radius: 0px;
 }
